@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">密码本</string>
+    <string name="info_title">详细信息</string>
+    <string name="details_content">详细内容\n账户\n密码</string>
+    <string name="topic">标题</string>
+    <string name="hint">程序第一次启动不用密码，之后可以设置登录密码</string>
+    <string name="tip">提示</string>
+    <string name="check">是否真的想要删除记录？</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+</resources>

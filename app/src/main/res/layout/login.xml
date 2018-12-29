@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_sign">
+
+    <RelativeLayout
+        android:layout_above="@id/hint_tv"
+        android:layout_gravity="center"
+        android:id="@+id/login_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_margin="10dip"
+        android:background="@drawable/background_login_div">
+
+        <!--密码-->
+        <TextView
+            android:id="@+id/login_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="密码" />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入"
+            android:layout_below="@id/login_tv"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            style="@style/normalText"/>
+
+        <Button
+            android:id="@+id/sign"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_alignRight="@id/password"
+            android:text="登录"
+            android:background="@drawable/login_btn_border"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/hint_tv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint"/>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/name_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CodeBook"
+            android:textSize="30dp"
+            android:textColor="#888"
+            android:layout_alignParentBottom="true"
+            android:padding="20dp"
+            android:paddingBottom="30dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

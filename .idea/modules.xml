@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeBook-master.iml" filepath="$PROJECT_DIR$/CodeBook-master.iml" />
+      <module fileurl="file://I:\AndroidStudioPro\CodeBook-master\CodeBook2.0.iml" filepath="I:\AndroidStudioPro\CodeBook-master\CodeBook2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://I:\AndroidStudioPro\CodeBook-master\app\app.iml" filepath="I:\AndroidStudioPro\CodeBook-master\app\app.iml" />
+    </modules>
+  </component>
+</project>

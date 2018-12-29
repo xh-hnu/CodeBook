@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="添加"
+        android:id="@+id/add"
+        android:icon="@drawable/add"
+        android:showAsAction="always"/>
+
+    <item
+        android:icon="@drawable/setting"
+        android:id="@+id/settings"
+        android:title="设置密码"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="关于功能"
+        android:showAsAction="ifRoom"
+        />
+
+</menu>
